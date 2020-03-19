@@ -942,6 +942,8 @@ body {
     background-color: #131313;
     padding-top: 1rem;
     padding-bottom: 0; }
+    .control__section-title {
+      color: #fff; }
     .control__video {
       max-height: 207px; }
       .control__video__play {
