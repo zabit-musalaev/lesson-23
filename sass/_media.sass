@@ -1,0 +1,168 @@
+@media screen and ( max-width: 1250px )
+  html
+    font-size: 12px
+  .nav
+    &__items
+      margin-right: 1rem
+  .swiper
+    &-slide
+      img
+        width: 100%
+
+
+
+@media screen and ( max-width: 992px )
+  .nav
+    display: none
+  .hero
+    &__instagram
+      display: none
+    &__content
+      margin-left: 0
+  .projects
+    &__col-50
+      position: relative
+  .swiper
+    &-slide
+      img
+        width: 100%
+      
+
+@media screen and ( max-width: 768px )
+  .contacts
+    &__button
+      display: none
+    &__phone
+      margin-right: 0
+      color: $light
+      text-decoration: none
+  .title
+    font-size: 1.64rem
+    
+  .hero
+    &__scroll-down
+      display: none
+    &__content
+      max-width: 22.86rem
+    &__text
+      font-size: 1.29rem
+      margin-bottom: 2.28rem
+    &__button
+      display: block
+      min-width: 22.86rem
+      margin-bottom: 1.85rem
+
+@media screen and ( max-width: 760px )
+  .row
+    flex-direction: column
+    align-items: center
+  .types
+    &__card
+      margin-bottom: 5rem
+  .card
+    &__text
+      margin-left: 0
+  .section
+    &-title
+      &__word
+        &::after
+          display: none
+    &__subtitle
+      width: 100%  
+  .projects
+    padding-bottom: 0
+    &--col-50
+      width: 100%
+      align-items: left
+      position: relative
+      img
+        width: 100%
+    &__row
+      flex-direction: column
+    &__col-50
+      width: 100%
+      top: 0
+      position: relative
+    img
+      width: 100%
+  .swiper
+    &-pagination
+      &-bullets
+        top: 16.2rem
+    &-button
+      &-prev, &-next
+        top: 18rem
+        
+  
+
+@media screen and ( max-width: 576px )
+  .hero
+    &__scroll-down
+      display: none
+  
+  .design-project
+    &--black
+      position: relative
+      &::before
+        content: ''
+        position: absolute
+        background: $dark
+        width: 100%
+        bottom: 0
+        height: 100% 
+        z-index: -1
+  .design-project
+    &--heading-title
+      color: $light
+  .subtitle
+    &__text
+      color: $light
+  
+
+  .control
+    background-color: $dark
+    padding-top: 1rem
+    padding-bottom: 0
+    &__video
+      width: 100%
+      height: 100%
+      margin-top: -5.5rem
+      margin-bottom: -4rem
+      &::before
+        content: ''
+        width: 100%
+        height: 100%
+        background-color: rgba($dark, 0.8)
+      &__play
+        width: 20%
+    &__text
+      color: $light
+    &__section-title
+      margin-top: 0
+    &__form
+      display: flex
+      flex-direction: column
+    &__policy
+      order: 2
+    &__label
+      color: $secondary
+    &__input
+      padding: 1rem 0
+      color: $light
+      margin-bottom: 3.428rem
+      border-bottom: 1px solid $light
+      &::placeholder
+       color: $light
+    &__policy-label
+      color: $light
+      justify-content: flex-start
+      margin-top: -2.5rem
+      margin-bottom: 5rem
+    &__button
+      position: relative
+      padding: 1.5rem
+      order: 3
+      margin-bottom: -20px
+      
+      
+  
